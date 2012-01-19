@@ -20,3 +20,16 @@
  * @copyright  Copyright (c) 2008 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
  * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
+.grid-product-thumbnail-header {
+    text-align: center !important; 
+    width: 80px;
+}
+
+.grid-product-thumbnail-column {
+    text-align: center !important; 
+    width: 80px;
+}
+
+.grid-product-thumbnail-img {
+    width: 75px;
+}
