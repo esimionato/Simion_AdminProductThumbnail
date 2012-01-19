@@ -1,0 +1,20 @@
+<layout>
+    <adminhtml_catalog_product_index>
+        <reference name="head">
+                <action method="addCss"><name>simion_adminproductthumbnail.css</name></action>
+        </reference>
+    </adminhtml_catalog_product_index>
+
+
+    <adminhtml_catalog_product_grid>
+        <reference name="head">
+                <action method="addCss"><name>simion_adminproductthumbnail.css</name></action>
+        </reference>
+    </adminhtml_catalog_product_grid>
+
+    <adminhtml_catalog_category_edit>
+        <reference name="head">
+                <action method="addCss"><name>simion_adminproductthumbnail.css</name></action>
+        </reference>
+    </adminhtml_catalog_category_edit>
+</layout>

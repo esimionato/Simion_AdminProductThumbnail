@@ -45,10 +45,13 @@
         </resources>
     </global>
     <adminhtml>
-    </adminhtml>
-    <frontend>
-        <events/>
-        <routers/>
+        <layout>
+            <updates>
+                <adminproductthumbnail>
+                    <file>simion_adminproductthumbnail.xml</file>
+                </adminproductthumbnail>
+            </updates>
+        </layout>
         <translate>
             <modules>
                 <Simion_AdminProductThumbnail>
@@ -58,6 +61,11 @@
                 </Simion_AdminProductThumbnail>
             </modules>
         </translate>
+    </adminhtml>
+    <frontend>
+        <events/>
+        <routers/>
+        <translate/>
         <layout/>
     </frontend>
     <default>
