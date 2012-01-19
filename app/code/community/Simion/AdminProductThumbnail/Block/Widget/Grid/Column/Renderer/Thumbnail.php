@@ -39,12 +39,12 @@ class Simion_AdminProductThumbnail_Block_Widget_Grid_Column_Renderer_Thumbnail
 
         $product = Mage::getModel('catalog/product')->load($row['entity_id']);
         $imgUrl = Mage::helper('catalog/image')->init($product, 'small_image')->resize(170); 
-        $html = '<img ';
-        $html .= 'id="'. $this->getColumn()->getId(). '" ';
-        $html .= 'src="'. $imgUrl.'"';
-        $html .= 'class="grid-product-thumbnail-img '. $this->getColumn()->getInlineCss(). '"/>';
 
-        return $html;
+        return sprintf('<img id="%s" src="%s" class="grid-product-thumbnail-img %s"/>',
+            $this->getColumn()->getId(),
+            $imgUrl,
+            $this->getColumn()->getInlineCass()
+        );
     }
 
 }
