@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Simion_AdminProductThumbnail>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+            </depends>
+        </Simion_AdminProductThumbnail>
+    </modules>
+</config>

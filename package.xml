@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<package>
+    <name>Simion_AdminProductThumbnail</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adding a thumnbail image on the product to category tab and the product grid.</summary>

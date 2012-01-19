@@ -1,0 +1,5 @@
+# Simion_AdminProductThumbnail definition
+app/etc/modules/Simion_AdminProductThumbnail.xml     app/etc/modules/Simion_AdminProductThumbnail.xml
+app/code/community/Simion/AdminProductThumbnail      app/code/community/Simion/AdminProductThumbnail
+app/locale/en_US/Simion_AdminProductThumbnail.csv    app/locale/en_US/Simion_AdminProductThumbnail.csv
+skin/adminhtml/default/default/simion_adminproductthumbnail.css     skin/adminhtml/default/default/simion_adminproductthumbnail.css
