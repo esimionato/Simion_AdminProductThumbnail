@@ -36,15 +36,14 @@ class Simion_AdminProductThumbnail_Block_Widget_Grid_Column_Renderer_Thumbnail
     extends Mage_Adminhtml_Block_Widget_Grid_Column_Renderer_Abstract {
 
     public function render(Varien_Object $row) {
-
-        $product = Mage::getModel('catalog/product')->load($row['entity_id']);
-        $imgUrl = Mage::helper('catalog/image')->init($product, 'small_image')->resize(170); 
-
-        return sprintf('<img id="%s" src="%s" class="grid-product-thumbnail-img %s"/>',
-            $this->getColumn()->getId(),
-            $imgUrl,
-            $this->getColumn()->getInlineCass()
-        );
+        if(isset($row['image']) && $row['image'] != 'no_selection') {
+            return sprintf('<img id="%s" src="%s" class="grid-product-thumbnail-img %s"/>',
+                $this->getColumn()->getId(),
+                Mage::helper('adminproductthumbnail/image')->getImageUrl($row['image']),
+                $this->getColumn()->getInlineCass()
+            );
+        }
+        return false;
     }
 
 }
