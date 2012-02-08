@@ -1,7 +1,7 @@
 Simion Admin Product Thumbnail
 ===============================
 
-Adding a thumnbail image on the product to category tab and the product grid.
+Adding a thumbnail image on the product to category tab and the product grid.
 
 System Requirements
 -------------------
